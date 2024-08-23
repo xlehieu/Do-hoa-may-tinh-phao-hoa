@@ -4,6 +4,8 @@
 #include <stdlib.h>
 #include <MMsystem.h>
 #include <pthread.h>
+
+
 void PhaoHoa(int kieu_ban, int x_fireworks,int y,int color){
 	int delay_ms=250;
 	kieu_ban =4;
@@ -423,7 +425,7 @@ int main(){
 			if(y_fireworks_arr[i]<50){
 				y_fireworks_arr[i]+=200;
 			}
-			//neu vi tri y cua phao hoa lon hon or nho hon 150 thì cong tru tuong ung nghennnnn
+			//neu vi tri y cua phao hoa lon hon or nho hon 150 thï¿½ cong tru tuong ung nghennnnn
 			if(y_fireworks_arr[i]>y){
 				y_sosanh_maxy[i]= y_fireworks_arr[i]-y;
 			}
